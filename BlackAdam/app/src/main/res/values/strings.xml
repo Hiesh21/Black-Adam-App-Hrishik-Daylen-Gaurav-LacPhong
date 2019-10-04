@@ -13,4 +13,10 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="genres">Genres</string>
+    <string name="country">Country</string>
+    <string name="rap">Hip Hop</string>
+    <string name="r_n_b"><![CDATA[R & B]]></string>
+    <string name="pop">Pop</string>
+    <string name="classic">Classic</string>
 </resources>
