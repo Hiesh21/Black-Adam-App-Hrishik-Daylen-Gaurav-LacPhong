@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/songName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
         android:layout_marginBottom="680dp"
         android:text="@string/songName"
         android:textSize="30sp"
@@ -40,15 +40,33 @@
     <TextView
         android:id="@+id/artistName"
         android:layout_width="132dp"
-        android:layout_height="32dp"
+        android:layout_height="35dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="279dp"
         android:layout_marginRight="279dp"
         android:layout_marginBottom="1dp"
         android:text="@string/artistName"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/songLyrics"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/songName" />
+
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="97dp"
+        android:onClick="onClick"
+        android:text="@string/goBack"
+        app:layout_constraintBottom_toTopOf="@+id/songLyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/songName"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

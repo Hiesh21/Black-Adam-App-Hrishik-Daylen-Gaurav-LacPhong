@@ -17,6 +17,10 @@ public class LyricDisplay extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
+
             }
+
+    public void onClick(View view) {
     }
+}
 
