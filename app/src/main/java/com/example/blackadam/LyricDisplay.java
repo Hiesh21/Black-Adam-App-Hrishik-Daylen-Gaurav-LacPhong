@@ -16,10 +16,18 @@ public class LyricDisplay extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_lyric_display);
 
 
+            Intent intent = getIntent();
+            int da_choice = var2.getIntExtra("da_song", 0);
 
-            }
+            if (da_choice == 2) {
+
+                System.out.println("Hello world");
+        }
+
+    }
 
     public void onClick(View view) {
         Intent i = new Intent(this,Genre_Activity.class);
