@@ -1,5 +1,6 @@
 package com.example.blackadam;
 
+import android.content.Intent;
 import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -21,6 +22,8 @@ public class LyricDisplay extends AppCompatActivity {
             }
 
     public void onClick(View view) {
+        Intent i = new Intent(this,Genre_Activity.class);
+        startActivity(i);
     }
 }
 
