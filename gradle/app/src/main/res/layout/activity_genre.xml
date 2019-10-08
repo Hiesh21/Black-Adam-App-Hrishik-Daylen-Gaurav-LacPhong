@@ -7,7 +7,7 @@
     tools:context=".Genre_Activity">
 
     <Button
-        android:id="@+id/song1"
+        android:id="@+id/hiphop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/song3"
+        android:id="@+id/country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/pop" />
 
     <Button
-        android:id="@+id/song2"
+        android:id="@+id/pop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"

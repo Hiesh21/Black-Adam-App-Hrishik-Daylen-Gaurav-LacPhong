@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class Genre_Activity extends AppCompatActivity {
-    Button hiphop = (Button) findViewById(R.id.song1);
-    Button pop = (Button) findViewById(R.id.song2);
-    Button country = (Button) findViewById(R.id.song3);
+    Button hiphop = findViewById(R.id.song1);
+    Button pop = findViewById(R.id.song2);
+    Button country = findViewById(R.id.song3);
     Intent i = new Intent(this, Song_Activity.class);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
