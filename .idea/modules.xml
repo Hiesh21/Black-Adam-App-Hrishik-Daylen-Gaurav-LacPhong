@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Black-Adam-App-Hrishik-Daylen-Gaurav-LacPhong.iml" filepath="$PROJECT_DIR$/.idea/Black-Adam-App-Hrishik-Daylen-Gaurav-LacPhong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Black Adam!.iml" filepath="$PROJECT_DIR$/Black Adam!.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

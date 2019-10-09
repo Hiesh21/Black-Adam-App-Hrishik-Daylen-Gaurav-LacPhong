@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Genre_Activity">
+
+    <Button
+        android:id="@+id/hiphopbuttton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:background="#d6a621"
+        android:text="@string/hip_hop"
+        android:textSize="25sp"
+        app:fontFamily="@font/imperfecta"
+        app:layout_constraintBottom_toTopOf="@id/countrybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genresview" />
+
+    <Button
+        android:id="@+id/countrybutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="137dp"
+        android:background="#d6a621"
+        android:text="@string/country"
+        android:textSize="25sp"
+        app:fontFamily="@font/imperfecta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popbutton" />
+
+    <Button
+        android:id="@+id/popbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="16dp"
+        android:background="#d6a621"
+        android:text="@string/pop"
+        android:textSize="25sp"
+        app:fontFamily="@font/imperfecta"
+        app:layout_constraintBottom_toTopOf="@+id/countrybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hiphopbuttton" />
+
+    <TextView
+        android:id="@+id/genresview"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/genres"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="75sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/imperfecta"
+        app:layout_constraintBottom_toTopOf="@+id/hiphopbuttton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
