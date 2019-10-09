@@ -14,4 +14,6 @@
     <string name="genres">Genres</string>
     <string name="hip_hop">Hip Hop</string>
     <string name="songs">Songs</string>
+    <string name="title_activity_lyric_display">LyricDisplay</string>
+    <string name="goBack">Go Back</string>
 </resources>
