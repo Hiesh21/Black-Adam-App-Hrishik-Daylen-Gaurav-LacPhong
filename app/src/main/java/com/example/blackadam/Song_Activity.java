@@ -15,29 +15,32 @@ public class Song_Activity extends AppCompatActivity {
             return;
         }
         String genreMessage = genreData.getString("genreMessage");
-        if (genreMessage == "Hip Hop"){
+        songList(genreMessage);
+    }
+    public void songList(String g) {
+        if (g.equals("HIPHOP")){
             Button songtext1 = (Button) findViewById(R.id.song1);
             songtext1.setText("Ransom - Lil Tecca");
             Button songtext2 = (Button) findViewById(R.id.song2);
-            songtext1.setText("Panini - Lil Nas X");
+            songtext2.setText("Panini - Lil Nas X");
             Button songtext3 = (Button) findViewById(R.id.song3);
-            songtext1.setText("Thotiana - Blue Face");
+            songtext3.setText("Thotiana - Blue Face");
         }
-        if (genreMessage == "Pop"){
+        if (g.equals("POP")){
             Button songtext1 = (Button) findViewById(R.id.song1);
             songtext1.setText("Soul Sister - Train");
             Button songtext2 = (Button) findViewById(R.id.song2);
-            songtext1.setText("Fireflies - Owl City");
+            songtext2.setText("Fireflies - Owl City");
             Button songtext3 = (Button) findViewById(R.id.song3);
-            songtext1.setText("Talk - Khalid");
+            songtext3.setText("Talk - Khalid");
         }
-        if (genreMessage == "Country"){
+        if (g.equals("COUNTRY")){
             Button songtext1 = (Button) findViewById(R.id.song1);
             songtext1.setText("Old Town Road - Lil Nas X");
             Button songtext2 = (Button) findViewById(R.id.song2);
-            songtext1.setText("Old Town Road (Remix) - Lil Nas X ft. Billy Ray Cyrus");
+            songtext2.setText("Old Town Road (Remix) - Lil Nas X ft. Billy Ray Cyrus");
             Button songtext3 = (Button) findViewById(R.id.song3);
-            songtext1.setText("Old Town Road (Remix) - Lil Nas X ft. Billy Ray Cyrus, Young Thug, and Mason Ramsey");
+            songtext3.setText("Old Town Road (Remix) - Lil Nas X ft. Billy Ray Cyrus, Young Thug, and Mason Ramsey");
         }
     }
 

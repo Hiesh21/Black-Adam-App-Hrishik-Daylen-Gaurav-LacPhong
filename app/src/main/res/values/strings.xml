@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Black Adam!</string>
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
+    <string name="prompt_email">Username</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -13,4 +13,5 @@
     <string name="country">Country</string>
     <string name="genres">Genres</string>
     <string name="hip_hop">Hip Hop</string>
+    <string name="songs">Songs</string>
 </resources>
