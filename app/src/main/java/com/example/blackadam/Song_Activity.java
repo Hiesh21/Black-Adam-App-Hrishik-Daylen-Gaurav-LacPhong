@@ -51,7 +51,7 @@ public class Song_Activity extends AppCompatActivity {
         final Button songtext1 = (Button) findViewById(R.id.song1);
         final Button songtext2 = (Button) findViewById(R.id.song2);
         final Button songtext3 = (Button) findViewById(R.id.song3);
-        final Intent i = new Intent(this, lyricdisplay.class);
+        final Intent i = new Intent(this, LyricDisplay.class);
         songtext1.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View view){
                 String a = songtext1.getText().toString();

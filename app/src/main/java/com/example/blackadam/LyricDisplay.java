@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class lyricdisplay extends AppCompatActivity {
+public class LyricDisplay extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
