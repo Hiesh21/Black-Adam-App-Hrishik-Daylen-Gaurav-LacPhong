@@ -29,7 +29,7 @@ public class LyricDisplay extends AppCompatActivity {
         }
 
         public void setLyrics(String choice) {
-        if (choice.equals("Ransom - Lil Tecca")) {
+        if (choice.equals("Ransom - Lil Tecca\nEXPLICIT")) {
                 String ransomLyrics = "Yeah (Internet Money bitch)\n" +
                         "I got black, I got white, what you want?\n" +
                         "Hop outside a Ghost and hop up in a Phantom\n" +
@@ -111,7 +111,7 @@ public class LyricDisplay extends AppCompatActivity {
                 artistName.setText("Lil Nas X");
                 songLyrics.setText(paniniLyrics);
             }
-            if (choice.equals("Thotiana = Blueface")) {
+            if (choice.equals("Thotiana - Blueface\nEXPLICIT")) {
                 String thotianaLyrics = "Blueface, baby\n" +
                         "Yeah, aight, bust down, Thotiana\n" +
                         "Yeah, aight, I wanna see you bust down\n" +
