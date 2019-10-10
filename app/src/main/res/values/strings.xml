@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Black Adam!</string>
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
+    <string name="prompt_email">Username</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -13,34 +13,7 @@
     <string name="country">Country</string>
     <string name="genres">Genres</string>
     <string name="hip_hop">Hip Hop</string>
+    <string name="songs">Songs</string>
     <string name="title_activity_lyric_display">LyricDisplay</string>
     <string name="goBack">Go Back</string>
-    <string name="songName">Panini</string>
-    <string name="artistName">Lil Nas X</string>
-    <string name="songLyrics">Daytrip took it to 10 (hey) \n
-Ayy, Panini, don\'t you be a meanie\n
-Thought you wanted me to go up\n
-Why you tryna keep me teeny? I\n
-It\'s a dreamy, wished it on a genie\n
-I got fans finally, ain\'t you wanting them to see me? I\n
-I thought you want this for my life, for my life\n
-Said you wanted to see me thrive, you lied\n
-Just say to me, what you want from me\n
-Just say to me, what you want from me\n
-Ayy, Panini, don\'t you be a meanie\n
-Thought you wanted me to go up\n
-Why you tryna keep me teeny now?\n
-Now they need me, number one on streaming\n
-Oh yeah, you used to love me\n
-So what happened, what\'s the meaning? I\n
-I thought you want this for my life, for my life\n
-Said you wanted to see me thrive, you lied\n
-Now when it\'s all done, I get the upper hand\n
-I need a big Benz, not another fan\n
-But I still want you as a fan\n
-I\'ma need to sit down, don\'t mean to make demands\n
-But I need you to\n
-Say to me, what you want from me\n
-Just say to me, what you want from me\n
-Daytrip took it to 10 (hey)</string>
 </resources>

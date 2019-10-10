@@ -117,6 +117,7 @@ public class LoginActivity extends AppCompatActivity {
                 loadingProgressBar.setVisibility(View.VISIBLE);
                 loginViewModel.login(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
+                startActivity(new Intent(LoginActivity.this, Genre_Activity.class));
             }
         });
     }
@@ -125,7 +126,7 @@ public class LoginActivity extends AppCompatActivity {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
-        startActivity(new Intent(LoginActivity.this, Genre_Activity.class));
+
     }
 
     private void showLoginFailed(@StringRes Integer errorString) {
