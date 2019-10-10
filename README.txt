@@ -1,7 +1,7 @@
 Project Name:
 - Black Adam
 Contributors:
-- Daylen Boen
+- Daylen Bone
 - Hrishik Kandula
 - Guava Agarwal
 - Lac-Phong Nguyen
