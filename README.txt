@@ -4,4 +4,4 @@ Contributors:
 - Daylen Bone
 - Hrishik Kandula
 - Guava Agarwal
-- Lac-Phong Nguyen
+- Lacking-Phong Nguyen
