@@ -24,11 +24,11 @@ public class Song_Activity extends AppCompatActivity {
     public void songList(String g) {
         if (g.equals("HIP-HOP")){
             Button songtext1 = (Button) findViewById(R.id.song1);
-            songtext1.setText("Ransom - Lil Tecca");
+            songtext1.setText("Ransom - Lil Tecca\nEXPLICIT");
             Button songtext2 = (Button) findViewById(R.id.song2);
             songtext2.setText("Panini - Lil Nas X");
             Button songtext3 = (Button) findViewById(R.id.song3);
-            songtext3.setText("Thotiana - Blueface");
+            songtext3.setText("Thotiana - Blueface\nEXPLICIT");
         }
         if (g.equals("POP")){
             Button songtext1 = (Button) findViewById(R.id.song1);

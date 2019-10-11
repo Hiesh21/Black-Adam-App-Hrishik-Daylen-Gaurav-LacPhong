@@ -29,7 +29,7 @@ public class LyricDisplay extends AppCompatActivity {
     }
 
     public void setLyrics(String choice) {
-        if (choice.equals("Ransom - Lil Tecca")) {
+        if (choice.equals("Ransom - Lil Tecca\n(EXPLICIT)")) {
             String ransomLyrics = "Yeah (Internet Money bitch)\n" +
                     "I got black, I got white, what you want?\n" +
                     "Hop outside a Ghost and hop up in a Phantom\n" +
@@ -111,7 +111,7 @@ public class LyricDisplay extends AppCompatActivity {
             artistName.setText("Lil Nas X");
             songLyrics.setText(paniniLyrics);
         }
-        if (choice.equals("Thotiana - Blueface")) {
+        if (choice.equals("Thotiana - Blueface\n(EXPLICIT)")) {
             String thotianaLyrics = "Blueface, baby\n" +
                     "Yeah, aight, bust down, Thotiana\n" +
                     "Yeah, aight, I wanna see you bust down\n" +
@@ -389,39 +389,75 @@ public class LyricDisplay extends AppCompatActivity {
             songLyrics.setText(oldLyrics);
         }
         if (choice.equals("Old Town Road (Remix) - Lil Nas X ft. Billy Ray Cyrus, Young Thug, and Mason Ramsey")) {
-            String oldLyrics = "Yeah, I'm gonna take my horse to the old town road\n" +
-                    "I'm gonna ride 'til I can't no more\n" +
-                    "I'm gonna take my horse to the old town road\n" +
-                    "I'm gonna ride 'til I can't no more (Kio, Kio)\n" +
-                    "I got the horses in the back\n" +
-                    "Horse tack is attached\n" +
-                    "Hat is matte black\n" +
-                    "Got the boots that's black to match\n" +
-                    "Ridin' on a horse, ha\n" +
-                    "You can whip your Porsche\n" +
-                    "I been in the valley\n" +
-                    "You ain't been up off that porch, now\n" +
-                    "Can't nobody tell me nothin'\n" +
-                    "You can't tell me nothin'\n" +
-                    "Can't nobody tell me nothin'\n" +
-                    "You can't tell me nothin'\n" +
-                    "Ridin' on a tractor\n" +
-                    "Lean all in my bladder\n" +
-                    "Cheated on my baby\n" +
-                    "You can go and ask her\n" +
-                    "My life is a movie\n" +
-                    "Bull ridin' and boobies\n" +
-                    "Cowboy hat from Gucci\n" +
-                    "Wrangler on my booty\n" +
-                    "Can't nobody tell me nothin'\n" +
-                    "You can't tell me nothin'\n" +
-                    "Can't nobody tell me nothin'\n" +
-                    "You can't tell me nothin'\n" +
+            String oldLyrics = "[Billy Ray Cyrus & {Young Thug}:]\n" +
+                    "{Yeehaw}\n" +
+                    "Oh, oh-oh\n" +
+                    "Oh\n" +
+                    "\n" +
                     "Yeah, I'm gonna take my horse to the old town road\n" +
                     "I'm gonna ride 'til I can't no more\n" +
                     "I'm gonna take my horse to the old town road\n" +
                     "I'm gonna ride 'til I can't no more\n" +
-                    "I got the";
+                    "(Kio, Kio, {woo})\n" +
+                    "\n" +
+                    "[Lil Nas X & (Young Thug):]\n" +
+                    "I got the horses in the back\n" +
+                    "Horse tack is attached\n" +
+                    "Hat is matte black\n" +
+                    "Got the boots that's black to match (Woo)\n" +
+                    "Ridin' on a horse, ha\n" +
+                    "You can whip your Porsche\n" +
+                    "I been in the valley\n" +
+                    "You ain't been up off that porch, now\n" +
+                    "\n" +
+                    "[Lil Nas X:]\n" +
+                    "Can't nobody tell me nothin'\n" +
+                    "You can't tell me nothin'\n" +
+                    "Can't nobody tell me nothin'\n" +
+                    "You can't tell me nothin'\n" +
+                    "\n" +
+                    "[Young Thug:]\n" +
+                    "Maserati rowdy, got a V12 for my bride (Skrrt)\n" +
+                    "Foggy rocky road, got a three-wheeler inside (Ayy)\n" +
+                    "All I wanna do is take a pill, catch a chill vibe\n" +
+                    "Real prince, I'm really the real don\n" +
+                    "I'ma take a horse to the South Berry Road (Ayy)\n" +
+                    "I don't remember her name, but I painted on her nose (Ayy)\n" +
+                    "Country money, I don't gotta do no chores\n" +
+                    "I'm a menace, I got women tryna sneak me through their doors (Skrrt)\n" +
+                    "\n" +
+                    "[Young Thug & (Lil Nas X):]\n" +
+                    "Can't nobody tell me nothin'\n" +
+                    "You can't tell me\n" +
+                    "(Can't nobody tell me nothin')\n" +
+                    "You can't tell me, you can't tell me\n" +
+                    "\n" +
+                    "[Billy Ray Cyrus:]\n" +
+                    "Hat down, cross town, livin' like a rockstar\n" +
+                    "Spent a lot of money on my brand new guitar\n" +
+                    "Baby's got a habit: diamond rings and Fendi sports bras\n" +
+                    "Ridin' down Rodeo in my Maserati sports car\n" +
+                    "\n" +
+                    "[Mason Ramsey & (Lil Nas X):]\n" +
+                    "Hold up, let me tell y'all somethin'\n" +
+                    "You can't tell me nothin'\n" +
+                    "Can't nobody tell me nothin'\n" +
+                    "(You can't tell me nothin')\n" +
+                    "\n" +
+                    "[Mason Ramsey:]\n" +
+                    "Hop up in my Razor, got a thousand acres\n" +
+                    "Ride up on the cows with it, pray that it don't faze her\n" +
+                    "Aye-o, aye-o, yippee-o ki-yay\n" +
+                    "If you ain't got no giddy up then giddy out my way\n" +
+                    "\n" +
+                    "[Billy Ray Cyrus, Mason Ramsey & Lil Nas X:]\n" +
+                    "I'm gonna take my horse to the old town road\n" +
+                    "I'm gonna ride 'til I can't no more\n" +
+                    "I'm gonna take my horse to the old town road\n" +
+                    "I'm gonna ride 'til I can't no more\n" +
+                    "\n" +
+                    "[Young Thug:]\n" +
+                    "Yeehaw";
             TextView songName = (TextView) findViewById(R.id.songName);
             TextView artistName = (TextView) findViewById(R.id.artistName);
             TextView songLyrics = (TextView) findViewById(R.id.songLyrics);
