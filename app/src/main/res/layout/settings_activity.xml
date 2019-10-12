@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6a621"
+    tools:context=".SettingsActivity">
+
+    <FrameLayout
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:text="Settings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="75sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="@font/imperfecta" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="65dp"
+            android:gravity="center"
+            android:text="Inverted Colors"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            app:fontFamily="@font/imperfecta" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:background="#000000"
+            android:text="Back to Genres"
+            android:textColor="#D6A621"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:textSize="25sp"
+            app:fontFamily="@font/imperfecta"
+            app:layout_constraintBottom_toTopOf="@+id/country"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </FrameLayout>
+</LinearLayout>
