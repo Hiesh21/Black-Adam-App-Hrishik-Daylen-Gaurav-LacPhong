@@ -16,19 +16,28 @@ import android.widget.TextView;
 public class LyricDisplay extends AppCompatActivity {
 
     @Override
+    /**
+     * onCreate method creates activity LyricDisplay, which displays lyrics of given song. This method
+     * uses intents and extras from Song_Activity to display the correct lyrics given what the user chooses.
+     */
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lyricdisplay);
-        Bundle songData = getIntent().getExtras();
+        Bundle songData = getIntent().getExtras();//gets extras from Song_Activity
 
-        if (songData == null) {
+        if (songData == null) {//checks if there songData holds null value
             return;
         }
-        String songMessage = songData.getString("songMessage");
-        setLyrics(songMessage);
-        toSettings();
+        String songMessage = songData.getString("songMessage");//creates an object to hold the data from Song_Activity and sets it as a String
+        setLyrics(songMessage);//calls setLyrics method
+        toSettings();//calls toSetting method
     }
 
+    /**
+     * setLyrics method checks the value of songMessage and based on the string displays different
+     * lyrics for the given song.
+     * @param choice
+     */
     public void setLyrics(String choice) {
         if (choice.equals("Ransom - Lil Tecca")) {
             String ransomLyrics = "Yeah (Internet Money bitch)\n" +
@@ -71,10 +80,10 @@ public class LyricDisplay extends AppCompatActivity {
                     "I got two twin Glocks, turn you to a dancer\n" +
                     "I see two twin opps, leave 'em on the banner\n" +
                     "And I got two thick thots, wanna lick the gang, yeah";
-            TextView songName = (TextView) findViewById(R.id.songName);
+            TextView songName = (TextView) findViewById(R.id.songName);//creates objects for text views used in activity
             TextView artistName = (TextView) findViewById(R.id.artistName);
             TextView songLyrics = (TextView) findViewById(R.id.songLyrics);
-            songName.setText("Ransom");
+            songName.setText("Ransom");//sets the text views as respective values
             artistName.setText("Lil Tecca");
             songLyrics.setText(ransomLyrics);
         }
@@ -431,10 +440,14 @@ public class LyricDisplay extends AppCompatActivity {
             songLyrics.setText(oldLyrics);
         }
     }
+
+    /**
+     * toSettings method is called to start the Settings activity
+     */
     public void toSettings(){
-        final Button settings = (Button) findViewById(R.id.settings);
-        final Intent i = new Intent(this, SettingsActivity.class);
-        settings.setOnClickListener(new Button.OnClickListener(){
+        final Button settings = (Button) findViewById(R.id.settings);//creates object Button for settings
+        final Intent i = new Intent(this, SettingsActivity.class);//creates object Intent for i
+        settings.setOnClickListener(new Button.OnClickListener(){//if settings button clicked it will start settings activity
             public void onClick(View view){
                 startActivity(i);
             }
