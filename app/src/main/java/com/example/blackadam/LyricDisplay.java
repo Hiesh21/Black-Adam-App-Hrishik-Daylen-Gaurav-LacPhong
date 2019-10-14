@@ -26,6 +26,7 @@ public class LyricDisplay extends AppCompatActivity {
         }
         String songMessage = songData.getString("songMessage");
         setLyrics(songMessage);
+        toSettings();
     }
 
     public void setLyrics(String choice) {
@@ -429,6 +430,15 @@ public class LyricDisplay extends AppCompatActivity {
             artistName.setText("Lil Nas X ft. Billy Ray Cyrus, Young Thug, Mason Ramsey");
             songLyrics.setText(oldLyrics);
         }
+    }
+    public void toSettings(){
+        final Button settings = (Button) findViewById(R.id.settings);
+        final Intent i = new Intent(this, SettingsActivity.class);
+        settings.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View view){
+                startActivity(i);
+            }
+        });
     }
 }
 

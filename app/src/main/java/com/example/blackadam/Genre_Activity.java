@@ -15,6 +15,8 @@ public class Genre_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_genre);
 
         toSongs();
+        toSettings();
+
     }
     public void toSongs(){
         final Button hiphop = (Button) findViewById(R.id.hiphop);
@@ -39,6 +41,15 @@ public class Genre_Activity extends AppCompatActivity {
             public void onClick(View view){
                 String c = country.getText().toString();
                 i.putExtra("genreMessage", c);
+                startActivity(i);
+            }
+        });
+    }
+    public void toSettings(){
+        final Button settings = (Button) findViewById(R.id.settings);
+        final Intent i = new Intent(this, SettingsActivity.class);
+        settings.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View view){
                 startActivity(i);
             }
         });

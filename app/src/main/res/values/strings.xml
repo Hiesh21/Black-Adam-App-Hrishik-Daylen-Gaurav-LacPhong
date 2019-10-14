@@ -9,10 +9,10 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="pop">Pop</string>
-    <string name="country">Country</string>
+    <string name="pop">POP</string>
+    <string name="country">COUNTRY</string>
     <string name="genres">Genres</string>
-    <string name="hip_hop">Hip Hop</string>
+    <string name="hip_hop">HIP-HOP</string>
     <string name="songs">Songs</string>
     <string name="title_activity_lyric_display">LyricDisplay</string>
     <string name="goBack">Go Back</string>

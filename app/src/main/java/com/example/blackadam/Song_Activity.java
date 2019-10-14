@@ -20,6 +20,7 @@ public class Song_Activity extends AppCompatActivity {
         String genreMessage = genreData.getString("genreMessage");
         songList(genreMessage);
         toLyric();
+        toSettings();
     }
     public void songList(String g) {
         if (g.equals("HIP-HOP")){
@@ -74,6 +75,15 @@ public class Song_Activity extends AppCompatActivity {
             }
         });
 
+    }
+    public void toSettings(){
+        final Button settings = (Button) findViewById(R.id.settings);
+        final Intent i = new Intent(this, SettingsActivity.class);
+        settings.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View view){
+                startActivity(i);
+            }
+        });
     }
 
 }
